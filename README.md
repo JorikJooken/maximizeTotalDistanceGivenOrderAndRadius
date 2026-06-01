@@ -12,6 +12,7 @@ g++ -g -std=c++11 -O3 computeMaxWienerIndexGivenOrderAndRadius.cpp -o computeMax
 
 An example of how the program can be used:
 ```bash
+cd uniqueCenter/
 ./computeMaxWienerIndexGivenOrderAndRadiusExecutable 100 6
 ```
 Computes the maximum total distance among all trees on 100 vertices that have radius 6. The output of the program is as follows:
