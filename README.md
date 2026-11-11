@@ -2,7 +2,9 @@
 Given integers $n$ and $r$, this repository contains code to calculate the maximum total distance among
 (1) All $n$-vertex graphs of radius $r$. The extremal graph is a tree and the corresponding code can be found in "uniqueCenter". This code also computes the extremal graph among all $n$-vertex trees of diameter $2r$.
 (2) All $n$-vertex trees of diameter $2r-1$. The extremal graph is a tree whose center contains exactly two vertices and the corresponding code can be found in "twoCenters".
-(3) All $n$-vertex clique-rooted trees of radius $r$. The corresponding code can be found in "cliqueCenter".
+(3) All $n$-vertex clique-rooted trees of diameter $2r-1$. The corresponding code can be found in "cliqueCenter".
+
+It also contains code to compute mu_r ("skeleton_envelope.cpp").
 
 
 The program can be compiled by navigating to the directory and then:
